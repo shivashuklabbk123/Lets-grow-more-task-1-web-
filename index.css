@@ -1,0 +1,445 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+  }
+  section#home .container .navbar h1 {
+    color: #000;
+  }
+  .navbar ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .navbar ul li {
+    margin-right: 50px;
+  }
+  .navbar ul li a {
+    color: #fff;
+  }
+  .navbar ul li a:hover {
+    color: #000;
+  }
+  
+  section#home {
+    background-image: url("https://wallpaperaccess.com/full/976706.jpg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    padding-top: 20px;
+  }
+  
+  section#home .container {
+    background: transparent;
+  }
+  
+  section#home .container .home-page {
+    margin-top: 180px;
+    background: transparent;
+  }
+  section#home .container .home-page h1 {
+    margin-bottom: 40px;
+    color: coral;
+  }
+  section#home .container .home-page p {
+    color: #fff;
+    line-height: 35px;
+    font-size: 22px;
+  }
+  section#home .container .home-page .button-wrapper {
+    margin-top: 50px;
+  }
+  
+  section#welcome {
+    padding-top: 150px;
+  }
+  section#welcome .container .welcome-page h1 {
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  
+  section#welcome .container .welcome-page .div-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 400px;
+  }
+  
+  section#welcome .container .welcome-page .div-wrapper .content {
+    padding: 50px 30px 50px 0;
+  }
+  
+  section#welcome .container .welcome-page .div-wrapper .content p {
+    line-height: 40px;
+    font-size: 25px;
+  }
+  section#welcome .container .welcome-page .div-wrapper .img-card {
+    position: relative;
+  }
+  
+  section#welcome .container .welcome-page .div-wrapper .img-card img {
+    width: 400px;
+    height: 350px;
+    margin-top: 50px;
+    position: absolute;
+    right: 0;
+  }
+  
+  section#welcome .container .welcome-page .card-wrapper {
+    margin-top: 50px;
+    display: grid;
+    column-gap: 60px;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 30px 0 40px 0;
+  }
+  
+  section#welcome .container .welcome-page .card-wrapper .card {
+    text-align: center;
+    padding: 20px 10px;
+    background-color: #fafafa;
+    box-shadow: 3px 3px 3px#f2f2f2, -3px -3px 3px #f2f2f2;
+    transition: all 0.3s ease-in-out;
+  }
+  section#welcome .container .welcome-page .card-wrapper .card:hover {
+    transform: translateY(-30px);
+  }
+  section#welcome .container .welcome-page .card-wrapper .card i {
+    background-color: #48325e;
+    color: #fff;
+    padding: 20px;
+    border-radius: 50px;
+    margin-bottom: 20px;
+  }
+  section#welcome .container .welcome-page .card-wrapper .card h3 {
+    color: #48325e;
+    margin-bottom: 10px;
+  }
+  section#welcome .container .welcome-page .card-wrapper .card p {
+    margin-bottom: 30px;
+  }
+  section#welcome .container hr {
+    height: 3px;
+    background-color: #ccc;
+    margin-top: 30px;
+  }
+  
+  section#projects {
+    padding-top: 150px;
+  }
+  section#projects h1 {
+    text-align: center;
+    margin-bottom: 80px;
+  }
+  section#projects .card-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  section#projects .card-wrapper .img-card {
+    height: 300px;
+    overflow: hidden;
+  }
+  section#projects .card-wrapper .img-card img {
+    transition: all 0.3s ease-in-out;
+  }
+  section#projects .card-wrapper .img-card img:hover {
+    transform: scale(1.5);
+  }
+  section#projects .card-wrapper .content-card {
+    padding: 50px;
+  }
+  section#projects .card-wrapper .bg-color-1 {
+    background-color: #ccc;
+  }
+  section#projects .card-wrapper .bg-color-2 {
+    background-color: #f2ce0b;
+  }
+  section#projects .card-wrapper .content-card .btn-color {
+    background-color: #48325e;
+    color: #fff;
+  }
+  section#projects .card-wrapper .bg-color-3 {
+    background-color: #c0bdbd;
+  }
+  section#projects .card-wrapper .content-card h4,
+  p {
+    margin-bottom: 20px;
+  }
+  
+  section#price-table {
+    padding-top: 150px;
+  }
+  
+  section#price-table .container h1 {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  section#price-table .container .price-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 70px;
+  }
+  section#price-table .container .price-wrapper .price-card {
+    text-align: center;
+    background-color: #e6e0e0;
+    padding: 30px 0;
+    cursor: pointer;
+    box-shadow: 3px 3px 3px#f2f2f2, -3px -3px 3px #f2f2f2;
+    transition: all 0.3s ease-in-out;
+  }
+  section#price-table .container .price-wrapper .price-card:hover {
+    transform: translateY(-30px);
+  }
+  section#price-table .container .price-wrapper .price-card h3 {
+    color: #36f108;
+  }
+  section#price-table .container .price-wrapper .price-card h4 {
+    margin-bottom: 10px;
+    color: #7050ff;
+  }
+  
+  section#price-table .container .price-wrapper .price-card .btn {
+    margin-top: 20px;
+    padding: 15px 60px;
+  }
+  
+  section#video-projects {
+    background-color: #555;
+    margin-top: 130px;
+    padding-top: 30px;
+    height: 80vh;
+  }
+  section#video-projects h2 {
+    text-align: center;
+    color: #fff;
+    padding: 15px 0px;
+  }
+  section#video-projects .video-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 20px 50px 50px 50px;
+    column-gap: 70px;
+  }
+  section#video-projects .video-wrapper .video-card {
+    width: 100%;
+    height: 350px;
+  }
+  section#video-projects .video-wrapper .video-card video {
+    width: 100%;
+    height: 100%;
+  }
+  
+  section#team {
+    margin-top: 120px;
+  }
+  section#team .container h1 {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  section#team .container .team-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 40px;
+    row-gap: 40px;
+  }
+  section#team .container .team-wrapper .team-card {
+    text-align: center;
+    box-shadow: 3px 3px 3px#f2f2f2, -3px -3px 3px #f2f2f2;
+    padding: 20px;
+    background-color: coral;
+    transition: all 0.3s ease-in-out;
+    position: relative;
+  }
+  section#team .container .team-wrapper .team-card:hover {
+    transform: translateY(-30px);
+  }
+  section#team .container .team-wrapper .team-card .img-div img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    z-index: -1;
+    overflow: hidden;
+  }
+  section#team .container .team-wrapper .team-card .icons {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 20px;
+    left: 108px;
+    z-index: -10;
+    background-color: blueviolet;
+    opacity: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  section#team .container .team-wrapper .team-card:hover .icons {
+    z-index: 10;
+  }
+  
+  section#team .container .team-wrapper .team-card .icons i {
+    font-size: 25px;
+    color: #fff;
+  }
+  
+  section#team .container .team-wrapper .team-card .icons .fa-twitter {
+    margin: 0 10px;
+  }
+  
+  section#photo {
+    padding-top: 120px;
+  }
+  section#photo h1 {
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  
+  section#photo .container .card-wrapper .card #MainImg {
+    height: 450px;
+  }
+  section#photo .container .card-wrapper .card .small-img-group {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 10px;
+    margin-top: 20px;
+  }
+  section#photo .container .card-wrapper .card .small-img-group img {
+    height: 150px;
+  }
+  section#photo .container .card-wrapper .card .small-img-group .small-img-col {
+    transition: all 0.3s ease-in-out;
+  }
+  section#photo
+    .container
+    .card-wrapper
+    .card
+    .small-img-group
+    .small-img-col:hover {
+    transform: translateY(-10px);
+  }
+  section#SignUp {
+    padding: 120px 0;
+    margin-top: 180px;
+    background-image: url(https://www.wallpapertip.com/wmimgs/8-82164_soothing-background.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+  }
+  section#SignUp .container {
+    background: transparent;
+  }
+  section#SignUp .container .card-wrapper h1 {
+    margin-bottom: 50px;
+    margin-top: 50px;
+    text-align: center;
+  }
+  section#SignUp .container .card-wrapper {
+    background: transparent;
+    padding: 0 20%;
+  }
+  section#SignUp .container .card-wrapper h1 {
+    color: #fff;
+  }
+  
+  section#SignUp .container .card-wrapper .input-wrapper {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+  }
+  
+  section#SignUp .container .card-wrapper .input-wrapper input {
+    background-color: #fff;
+    font-size: 20px;
+    width: 96%;
+    height: 60px;
+  }
+  section#SignUp
+    .container
+    .card-wrapper
+    .input-wrapper
+    .btn-wrapper
+    .primary-btn {
+    margin-bottom: 6px;
+    font-size: 20px;
+  }
+  
+  section#blog {
+    margin-top: 120px;
+  }
+  section#blog .container h1 {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  section#blog .container .blog-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 50px;
+  }
+  section#blog .container .blog-wrapper .blog-card {
+    transition: all 0.3s ease-in-out;
+  }
+  section#blog .container .blog-wrapper .blog-card:hover {
+    transform: translateY(-30px);
+  }
+  section#blog .container .blog-wrapper .blog-card .btn {
+    margin-top: 20px;
+  }
+  
+  section#contact {
+    margin-top: 150px;
+    background-color: coral;
+  }
+  section#contact .container {
+    background-color: coral;
+    padding: 70px 0;
+  }
+  section#contact .container .contact-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  section#contact .container .contact-wrapper .contact-card {
+    padding: 20px 0px 20px 30px;
+    background-color: #f2ce0b;
+  }
+  section#contact .container .contact-wrapper .contact-card h2 {
+    margin-bottom: 20px;
+  }
+  section#contact .container .contact-wrapper .contact-card input {
+    width: 70%;
+    margin-bottom: 20px;
+  }
+  section#contact .container .contact-wrapper .contact-card textarea {
+    width: 70%;
+    outline: none;
+    border-style: none;
+    padding: 20px;
+    margin-bottom: 30px;
+  }
+  section#contact .container .contact-wrapper .contact-card .btn {
+    width: 70%;
+  }
+  
+  section#footer {
+    padding-top: 150px;
+    height: 50vh;
+  }
+  section#footer .container .footer-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10%;
+  }
+  section#footer .container .footer-wrapper .footer-card h3 {
+    margin-bottom: 20px;
+  }
+  section#footer .container .footer-wrapper .footer-card i {
+    font-size: 25px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+  }
+  section#footer .container .footer-wrapper .footer-card p {
+    transition: all 0.3s ease-in-out;
+  }
+  section#footer .container .footer-wrapper .footer-card p:hover {
+    color: #f2ce0b;
+  }
